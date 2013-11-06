@@ -1,0 +1,160 @@
+html {
+	background-color: #B9EAFA;
+	font-family: Lucida Grande, Arial, Verdana, sans-serif;
+}
+
+h1 {
+	font-family: 'Antic Slab', serif;
+	color: #fff;
+	margin:0;
+}
+
+h2 {
+	font-family: 'Antic Slab', serif;
+	font-size: 16px;
+	margin:0;
+	padding-top: 25px;
+	
+}
+
+label {
+	font-size: 12px;
+}
+
+input {
+	margin-bottom:10px;
+	width:90%;
+	height:25px;
+
+}
+
+p {
+	font-size: 9px;
+	margin: 0;
+}
+
+section .numberCircle {
+	float:left;
+}
+
+section h2 {
+	float:left;
+}
+
+
+.input_box
+	{
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+
+	-webkit-box-shadow: inset 2px 2px 2px 0px #dddddd;
+  	-moz-box-shadow: inset 2px 2px 2px 0px #dddddd;
+  	box-shadow: inset 2px 2px 2px 0px #dddddd;
+  	border-style:none;
+}
+
+#portfolio_input {
+	width:50%;
+}
+
+.clear {
+	clear:both;
+}
+
+.left {
+	float:left;
+}
+
+#main_header {
+	background-color: #2A7087;
+	margin-top: 10px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+
+#header_container {
+	padding: 20px;
+	padding-left: 30px;
+}
+
+#sub_title {
+	color: #fff;
+	margin:0;
+}
+
+#wrapper {
+	max-width: 500px;
+	margin:auto;
+}
+
+#form_wrapper {
+	background-color: #fff;
+}
+
+
+.container {
+	max-width: 375px;
+	background-color: #F5F5F5;
+	padding: 25px;
+	padding-left: 30px;
+	margin:auto;
+
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+#note {
+	margin-top: -10px;
+	margin-bottom: 10px;
+}
+
+#passwordtext {
+	margin-left: 2px;
+	margin-top: 0px;
+}
+
+#showpassword {
+	width: 10px;
+	height:10px;
+	border-radius: none;
+	border-style:none;
+
+}
+
+#account_container {
+	padding-bottom: 40px;
+}
+
+.numberCircle {
+    -webkit-border-radius: 999px;
+    -moz-border-radius: 999px;
+    border-radius: 999px;
+
+    width: 12px;
+    height: 12px;
+    padding: 7px;
+    margin:15px 15px 0px -15px;
+    
+    background: #18A7D6;
+    color: #fff;
+    text-align: center;
+    border: 5px #fff solid;
+    font-size: 12px;
+}
+
+#submit_button {
+	font-family: 'Antic Slab', serif;
+	border-radius: 5px;
+	font-size: 15px;
+	background-color: #76A32C;
+	color: #fff;
+	margin-left: 150px;
+	margin-top: 30px;
+	margin-bottom: 25px;
+	width:180px;
+	height: 30px;
+}
+
+

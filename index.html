@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Sign Up for Whoo!</title>
+        <meta name="description" content="Sign Up for Whoo">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/normalize.css" rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Antic+Slab' rel='stylesheet' type='text/css'>
+        <link href="css/style.css" rel='stylesheet' type='text/css'>
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    </head>
+    <body>
+
+    <div id="wrapper">
+        <div id="main_header">
+            <div id="header_container">
+                <h1>Sign up for Whoo!</h1>
+                <p id="sub_title">50 projects, 500 images, 10 videos, domain binding, and technical support.</p>
+            </div>
+        </div>
+
+        <div id="form_wrapper">
+            <form action="www.google.com" />
+
+                <section id="portfolio_name">
+                    <div class="numberCircle">1</div>
+                    <h2>First, name your portfolio</h2>
+                    <div id="portfolio_container" class="container clear">
+                        <label>Portfolio title<br />
+                        <input class = "input_box" type="text" name="portfolio_title" required="required" /></label><br />
+                        <label>Portfolio address<br />
+                        <input class = "input_box" id="portfolio_input" type="text" name ="portfolio_address" required="required" /></label><br />
+                    </div>
+                </section>
+
+                <section id="account_details">
+                    <div class="numberCircle">2</div>
+                    <h2>Now, enter your account details</h2>
+                    <div id="account_container" class="container clear">
+                        <label>Name<br />
+                        <input class = "input_box" type="text" name="name" required="required" /></label><br />
+                        <label>Email<br />
+                        <input class = "input_box" type="email" name="email" required="required" /></label><br />
+                        <p id="note">Note: We'll never share your email, promise.</p>
+                        <label>Password<br />
+                        <input class = "input_box" type="password" name="password" required="required" id="password" /></label><br />
+                        <input  type="checkbox" name="show_password" value="Show Password" class="left" id="showpassword" /> <p class="left" id="passwordtext"> Show Password </p>
+                    </div>
+                </section>
+
+                <section id="payment_information">
+                    <div class="numberCircle">3</div>
+                    <h2>Finally, enter your payment information</h2>
+                    <div id="payment_container" class="container clear">
+                        <label>Card number<br />
+                        <input class = "input_box" id="card_number" type="text" name="card_number" required="required" /></label></br />
+                        <label>Security code<br />
+                        <input class = "input_box" type="text" name="security_code" required="required" /><label><br />
+                        <label>Expiration date<br />
+                        <select name="month" class="formlist" required="required">
+                            <option>Month</option>
+                            <option value = "1">January</option>
+                            <option value = "2">February</option>
+                            <option value = "3">March</option>
+                            <option value = "4">April</option>
+                            <option value = "5">May</option>
+                            <option value = "6">June</option>
+                            <option value = "7">July</option>
+                            <option value = "8">August</option>
+                            <option value = "9">September</option>
+                            <option value = "10">October</option>
+                            <option value = "11">November</option>
+                            <option value = "12">December</option> 
+                        </select>
+                        <select name="year" class="formlist" required="required">
+                            <option>Year</option>
+                            <option value = "1">2013</option>
+                            <option value = "2">2014</option>
+                            <option value = "3">2015</option>
+                            <option value = "4">2016</option>
+                            <option value = "5">2017</option>
+                            <option value = "6">2018</option>
+                            <option value = "7">2019</option>
+                            <option value = "8">2020</option>
+                            <option value = "9">2021</option>
+                            <option value = "10">2022</option>
+                        </select>
+                    </div>
+                </section>
+            <input id="submit_button" type="submit" value="Create your portfolio" />
+        </div>
+    </div>
+<!--Javascript!-->
+        <script src="js/jquery.js"></script>
+        <script src="js/script.js"></script>
+
+    </body>
+</html>
